@@ -13,3 +13,7 @@ your project structure will be saved in a structure like this
     ├── tools                   # Tools and utilities
     ├── LICENSE
     └── README.md
+
+###todo
+terraform
+easier, faster with a visual tool to create providers of any kind. 

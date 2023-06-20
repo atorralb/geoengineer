@@ -1,6 +1,6 @@
 import dearpygui.dearpygui as dpg
 dpg.create_context()
-
+"""
 def link_nodes(s, data):
     dpg.add_node_link(parent=s, attr_1=data[0], attr_2=data[1])
 
@@ -22,6 +22,7 @@ def add_node_add():
         with dpg.node_attribute(attribute_type=dpg.mvNode_Attr_Output):
             dpg.add_text()
     dpg.hide_item("popup_window")
+    
 def add_node_print():
     with dpg.node(parent="nde", label="Print"):
         with dpg.node_attribute(attribute_type=dpg.mvNode_Attr_Input):
@@ -53,6 +54,7 @@ with dpg.handler_registry():
 with dpg.window(width=500, height=300):
 	with dpg.node_editor(callback=link_nodes, delink_callback=delink_nodes,width=600,height=600,tag="nde") as nde:
 		pass
+"""
 dpg.create_viewport(title='Custom Title', width=800, height=600)
 dpg.setup_dearpygui()
 dpg.show_viewport()
