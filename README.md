@@ -29,3 +29,7 @@ personal notes
 -trying xNode framework through unity package manifest (see geogui/pacakges/manifest)
 
 -nodes working now on context menu... investigating how to edit properties
+
+
+![Alt text](screenshot.png?raw=true "screenshot of nodes working")
+
