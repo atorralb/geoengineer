@@ -22,12 +22,17 @@ easier, faster with a visual tool to create providers of any kind.
 
 personal notes
 
+4/jul/2023
 -added .gitignore before unity project was created, git large filesystem wasn't supporing files > 100mb
 
+
+9/jul/2023
 -uninstalled all dotnet sdk, visual studio, net frameworks and reinstalled since unity was giving errors at compile time for using a C# <= 8.0
 
+10/jul/2023
 -trying xNode framework through unity package manifest (see geogui/pacakges/manifest)
 
+11/jul/2023
 -nodes working now on context menu... investigating how to edit properties
 thanks to https://www.youtube.com/watch?v=yJezNp4PVpo  
 
